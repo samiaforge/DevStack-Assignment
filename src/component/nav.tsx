@@ -13,7 +13,7 @@ const Nav = () => {
           <li>About</li>
           <li>Contact</li>
         </ul>
-       <div className="hidden lg:flex items-center">
+       <div className="gap-2 hidden lg:flex items-center">
           <button className="btn btn-ghost text-[18px] text-[#334155]">
             Sign in
           </button>
