@@ -55,10 +55,10 @@ const handleRemoveFromStack = (id: string) => {
 };
 
   return (
-    <div className="container mx-auto px-6">
+    <div className="container mx-auto px-7">
 
       {/* Heading */}
-      <div className="-mt-12">
+      <div className="mt-12">
         <h2 className="text-4xl font-bold">
           Explore the{" "}
           <span className="bg-gradient-to-r from-[#EC4899] via-[#EC4899] to-[#8B5CF6] bg-clip-text text-transparent">
@@ -72,10 +72,10 @@ const handleRemoveFromStack = (id: string) => {
       </div>
 
       {/* Main content */}
-      <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,3fr)_minmax(285px,1fr)] gap-10 mt-10">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
 
         {/* Technologies */}
-        <div className="lg:col-span-1">
+        <div className="lg:col-span-2 min-w-0">
           <TechnologiesAvailable
             technologies={technologies}
             yourStack={yourStack}
@@ -84,7 +84,7 @@ const handleRemoveFromStack = (id: string) => {
         </div>
 
         {/* Your Stack */}
-        <div className="lg:col-span-1">
+        <div className="lg:col-span-1 min-w-0">
           <YourStack
             technologies={yourStack}
             onRemove={handleRemoveFromStack}
