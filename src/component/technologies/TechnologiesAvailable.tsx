@@ -52,7 +52,7 @@ const TechnologiesAvailable = ({ technologies, yourStack,onAddToStack, }:Technol
                   className={`btn w-full ${
                     isAdded
                       ? "bg-gray-100 text-pink-500 border-pink-500"
-                      : "btn-primary"
+                      : "bg-black text-white border rounded-xl"
                   }`}
                 >
                   {isAdded
