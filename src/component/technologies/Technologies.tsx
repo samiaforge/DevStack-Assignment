@@ -55,7 +55,7 @@ const handleRemoveFromStack = (id: string) => {
 };
 
   return (
-    <div className="container mx-auto px-8">
+    <div className="container mx-auto px-10">
 
       {/* Heading */}
       <div className="mt-12">

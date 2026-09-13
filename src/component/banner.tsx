@@ -1,7 +1,7 @@
 import Hero from "../assets/banner-stack.png";
 const Banner = () => {
   return (
-    <div className="flex flex-col mt-10 lg:flex-row justify-between  container mx-auto px-8 lg:pl-7 gap-8 lg:gap-0 ">
+    <div className="flex flex-col mt-10 lg:flex-row justify-between  container mx-auto px-8 lg:pl-9 gap-8 lg:gap-0 ">
       {" "}
       {/* Left Content */}{" "}
       <div className="mt-5 lg:w-auto">
